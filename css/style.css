@@ -99,6 +99,21 @@ ul {
   color: var(--black-color);
 }
 
+.after {
+  position: relative;
+  color: var(--background-color-button);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.after::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--background-color-button);
+  border-radius: 4px;
+}
+
 .list-second {
   display: flex;
   gap: 40px;
