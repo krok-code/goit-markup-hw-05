@@ -655,6 +655,7 @@ ul {
 .modal-button:focus {
   background-color: var(--background-color-button);
   border: none;
+  fill: var(--white-color);
 }
 
 .svg-close-modal {
