@@ -604,6 +604,15 @@ ul {
   font-size: 20px;
 }
 
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.first-footer-container {
+  margin-right: 120px;
+}
+
 .modal-window {
   position: fixed;
   top: 0;
