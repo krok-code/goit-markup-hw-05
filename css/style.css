@@ -374,6 +374,9 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: var(--text-align);
+}
+
+.fifth {
   margin-bottom: 72px;
 }
 
