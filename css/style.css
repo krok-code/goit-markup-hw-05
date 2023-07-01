@@ -591,6 +591,9 @@ ul {
   transform: translateY(0%);
 }
 
+.portfolio-link:hover .portfolio-info .portfolio-link:focus .portfolio-info {
+  transform: translateY(0%);
+}
 .portfolio-image {
   position: relative;
   overflow: hidden;
@@ -603,7 +606,7 @@ ul {
   line-height: var(--logo-line-height);
   letter-spacing: 0.02em;
   color: var(--white-color-first);
-  padding: 40px 37px;
+  padding: 40px 32px;
   background-color: var(--blue-color);
   height: 100%;
   width: 100%;
