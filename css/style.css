@@ -618,7 +618,7 @@ ul {
   line-height: var(--logo-line-height);
   letter-spacing: 0.02em;
   color: var(--white-color-first);
-  pad: 40px 37px;
+  padding: 40px 37px;
   background-color: var(--blue-color);
   height: 100%;
   width: 100%;
