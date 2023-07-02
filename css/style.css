@@ -583,11 +583,8 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link {
-  transform: translateY(0%);
-}
-
-.portfolio-link:hover .portfolio-info .portfolio-link:focus .portfolio-info {
+.portfolio-link:hover .portfolio-info,
+.portfolio-link:focus .portfolio-info {
   transform: translateY(0%);
 }
 .portfolio-image {
