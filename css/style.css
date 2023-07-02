@@ -463,6 +463,7 @@ ul {
   line-height: var(--logo-line-height);
   letter-spacing: 0.02em;
   color: var(--white-color);
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
