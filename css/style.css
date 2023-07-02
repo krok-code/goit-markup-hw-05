@@ -186,6 +186,8 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-h-first {
