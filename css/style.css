@@ -373,10 +373,10 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: var(--text-align);
+  margin-bottom: 72px;
 }
 
 .fifth {
-  margin-bottom: 72px;
 }
 
 .ul-fifth {
