@@ -132,8 +132,8 @@ ul {
 }
 
 .link-first {
-  color: var(--black-color);
   color: var(--background-color-button);
+  color: var(--black-color);
 }
 
 .active {
