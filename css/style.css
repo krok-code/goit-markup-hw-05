@@ -377,10 +377,6 @@ ul {
   text-align: var(--text-align);
 }
 
-.fifth {
-  margin-bottom: 72px;
-}
-
 .ul-fifth {
   display: flex;
   gap: 24px;
