@@ -732,6 +732,7 @@ p {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .is-hidden {
@@ -752,6 +753,8 @@ p {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .modal-button {
@@ -800,12 +803,25 @@ p {
   margin-bottom: 16px;
 }
 
+.div-modal-one {
+  margin-bottom: 8px;
+}
+
 label {
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
   margin-left: 24px;
   margin-right: 24px;
+}
+
+.form-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+  display: block;
+  margin-bottom: 4px;
 }
 
 .form-label:first-child {
