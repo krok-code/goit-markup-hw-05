@@ -424,7 +424,8 @@ ul {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-logo {
