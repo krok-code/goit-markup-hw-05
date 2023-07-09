@@ -515,12 +515,23 @@ p {
   margin-left: 80px;
 }
 
+.subscribe {
+  display: flex;
+  gap: 24px;
+}
+
 .subscribe-email {
-  background-color: inherit;
+  font-size: var(--logo-size);
+  line-height: var(--logo-line-height);
+  letter-spacing: 0.04em;
+  background-color: transparent;
+  color: var(--white-color);
+  padding-left: 16px;
   border-radius: 4px;
   border: 1px solid var(--white-color);
   width: 264px;
   height: 40px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-email::placeholder {
@@ -535,6 +546,9 @@ p {
 }
 
 .subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 24px;
   background-color: var(--blue-color);
   color: var(--white-color);
@@ -545,14 +559,15 @@ p {
   font-weight: var(--logo-weight);
   font-size: var(--logo-size);
   line-height: var(--logo-line-height);
-  letter-spacing: 4%;
-  width: 165px;
+  letter-spacing: 0.04em;
+  min-width: 165px;
   height: 40px;
+  cursor: pointer;
 }
 
 .icon-send {
   padding: auto;
-  padding-left: 16px;
+  margin-left: 16px;
 }
 
 .button {
