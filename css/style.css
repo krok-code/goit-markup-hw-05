@@ -852,6 +852,7 @@ label {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--black-color);
 }
-input .svg:focus {
+
+input .svg-in-form:focus {
   fill: var(--blue-color);
 }
