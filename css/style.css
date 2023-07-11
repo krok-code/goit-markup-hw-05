@@ -808,6 +808,10 @@ p {
   margin-bottom: 8px;
 }
 
+.div-modal-two {
+  margin-bottom: 16px;
+}
+
 label {
   display: flex;
   flex-direction: column;
