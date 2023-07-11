@@ -857,7 +857,7 @@ label {
   color: var(--black-color);
 }
 
-input .svg-in-form:focus {
+.form-input .svg-in-form:focus {
   fill: var(--blue-color);
 }
 
