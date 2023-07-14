@@ -850,7 +850,7 @@ label {
   color: var(--black-color);
 }
 
-input:focus svg .svg-in-form {
+input:focus + svg.svg-in-form {
   fill: var(--blue-color);
 }
 
@@ -883,6 +883,9 @@ input:focus svg .svg-in-form {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
+  display: inline;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .span-in-label {
@@ -898,5 +901,12 @@ input:focus svg .svg-in-form {
   fill: transparent;
 }
 
-.checkbox-svg {
+input:checked + .checkbox-svg {
+  background-color: var(--background-color-button);
+  border: none;
+  fill: var(--white-color-first);
+}
+
+.link-in-label {
+  color: var(--blue-color);
 }
