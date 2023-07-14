@@ -114,16 +114,6 @@ p {
   color: var(--background-color-button);
 }
 
-.list-1::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: var(--background-color-button);
-  border-radius: 2px;
-}
-
 .list-second {
   display: flex;
   gap: 40px;
