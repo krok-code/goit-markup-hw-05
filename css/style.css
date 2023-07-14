@@ -883,9 +883,6 @@ input:focus + svg.svg-in-form {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
-  display: inline;
-  display: flex;
-  flex-direction: row-reverse;
 }
 
 .span-in-label {
