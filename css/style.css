@@ -874,6 +874,11 @@ input:focus + svg.svg-in-form {
   border-color: var(--blue-color);
 }
 
+.textarea::placeholder {
+  color: var(--black-color);
+  opacity: 40%;
+}
+
 .div-modal-three {
   margin-bottom: 24px;
 }
@@ -883,6 +888,7 @@ input:focus + svg.svg-in-form {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
+  display: inline-block;
 }
 
 .span-in-label {
@@ -912,7 +918,7 @@ input:checked + .span-in-label {
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: var(--logo-size);
   font-weight: var(--logo-weight);
   line-height: var(--logo-line-height);
@@ -923,4 +929,5 @@ input:checked + .span-in-label {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 95px;
 }
