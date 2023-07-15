@@ -906,7 +906,7 @@ input:focus + svg.svg-in-form {
   fill: transparent;
 }
 
-.span-in-label input:checked {
+.input-checked:checked + .label-checkbox .span-in-label {
   background-color: var(--background-color-button);
   border: none;
   fill: var(--white-color-first);
